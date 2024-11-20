@@ -1,0 +1,1 @@
+# This is a sample __init__.py file for a Python package
