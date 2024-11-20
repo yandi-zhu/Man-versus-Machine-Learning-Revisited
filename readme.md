@@ -20,7 +20,7 @@ The `code` folder contains Jupyter notebooks for data processing, model training
 
 The `functions` subfolder contains custom functions (e.g., single sorts, Fama-Macbeth regressions) utilized across different notebooks.
 
-## Data Folder (`data`)
+### Data Folder (`data`)
 
 Organized into subfolders:
 
