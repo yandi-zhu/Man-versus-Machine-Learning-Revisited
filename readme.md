@@ -28,7 +28,7 @@ The `functions` subfolder contains custom functions (e.g., single sorts, Fama-Ma
 Organized into subfolders:
 
 - `BHL`: 
-  - **Conditional_Bais.csv**, the conditional bias data from Binsbergen et al. (2023).
+  - **Conditional_Bias.csv**, the conditional bias data from Binsbergen et al. (2023).
 - `Macro`: Macroeconomic data including INDPROD, RCON, RGDP, and UNEMP
 - `WRDS`: Data from the WRDS (Wharton Research Data Services) database.
 - `Other`: 
