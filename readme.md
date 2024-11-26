@@ -19,6 +19,7 @@ The `code` folder contains Jupyter notebooks for data processing, model training
 - **03_Main.ipynb**:  The main analytical notebook, generating key tables and figures.
 - **04_RF_variants.ipynb**: Explores alternative Random Forest model specifications.
 - **05_ML_variants.ipynb**: Explores alternative machine learning models.
+- **06_DataShare.ipynb**: Generates the shared look-ahead-bias free earnings forecast dataset.
 
 The `functions` subfolder contains custom functions (e.g., single sorts, Fama-Macbeth regressions) utilized across different notebooks.
 
