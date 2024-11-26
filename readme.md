@@ -43,7 +43,7 @@ The code was tested under the environment:
 Package|Version
 ---|---
 Pandas|2.1.4
-Sklearn|1.4.2
+Sklearn|1.2.2
 lightgbm|4.3.0
 LinearModels|5.4
 statsmodels|0.14.0
