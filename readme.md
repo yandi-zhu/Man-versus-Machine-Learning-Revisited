@@ -2,6 +2,8 @@
 
 This repository contains the replication data and code for the paper "Man versus Machine Learning Revisited" by Yingguang (Conson) Zhang, Yandi Zhu, and Juhani T. Linnainmaa. For more details, please refer to our [manuscript on SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4899584). For any inquiries, please contact Yandi Zhu at [yandi.zhu@stu.pku.edu.cn](mailto:yandi.zhu@stu.pku.edu.cn).
 
+<!-- You can download our look-ahead-bias free earnings forecast from [this link](). -->
+
 ## Data Availability
 The code requires access to the WRDS database (CRSP, Compustat, and IBES). Follow the instructions in `code/00_DataDownload.ipynb` to download the required data. We provide only publicly available data such as macroeconomic variables from Federal Reserve Bank of Philadelphia. 
 
