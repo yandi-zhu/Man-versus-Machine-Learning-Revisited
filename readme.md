@@ -1,6 +1,6 @@
 # Man Versus Machine Learning Revisited
 
-This repository contains the replication data and code for the paper "Man versus Machine Learning Revisited" by Yingguang Zhang, Yandi Zhu, and Juhani T. Linnainmaa. For more details, please refer to our [manuscript](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4899584). For any inquiries, please contact Yandi Zhu at [yandi.zhu@stu.pku.edu.cn](mailto:yandi.zhu@stu.pku.edu.cn).
+This repository contains the replication data and code for the paper "Man versus Machine Learning Revisited" by Yingguang Zhang, Yandi Zhu, and Juhani T. Linnainmaa. For more details, please refer to our [manuscript](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4899584). For any inquiries, please contact Yandi Zhu at [yandi.zhu@cufe.edu.cn](mailto:yandi.zhu@cufe.edu.cn).
 
 **You can download our look-ahead-bias-free earnings forecast from [this link](https://www.dropbox.com/scl/fi/lkdikhawfcgcyswiv1mkq/Look_Ahead_Bias_Free_Earnings_Forecasts.zip?rlkey=gl2eu0usnhzngtpr5rjj0y2vo&st=d4wejlo7&dl=0).**
 
@@ -16,9 +16,11 @@ If you use the data, please cite our paper:
 ```
 
 **UPDATES**:
+- 20250714:
+  - We use the updated version (v1.4.1) of Chen and Zimmermann (2022) anomaly data since there is a lookahead bias bug in `AnnouncementReturn` (See https://github.com/OpenSourceAP/CrossSection/issues/158 for more details).
 
 - 20250510:
-  - We combine actual earnings from both IBES Summary and IBES Detail databases. Please see section G in Online Appendix for more details.
+  - We combine actual earnings from both IBES Summary and IBES Detail databases. Please see Section G in Internet Appendix for more details.
 
 ---
 
@@ -52,7 +54,7 @@ Organized into subfolders:
 - `Other`:
   - **ff5_factors_m.csv**: monthly factor returns (FFC6, HMXZ, SY, DHS)
   - **Siccodes59.csv**: FF49 industry classifications
-  - **signed_predictors_dl_wide.csv**: anomaly characteristics from Open Source Asset Pricing. Please download from https://www.openassetpricing.com/, v1.3.
+  - **signed_predictors_dl_wide_v1.4.1.csv**: anomaly characteristics from Open Source Asset Pricing. Please download from https://www.openassetpricing.com/, v1.4.1.
 - `Results`: Analytical results, including model outputs and processed datasets.
 
 ## Dependency
